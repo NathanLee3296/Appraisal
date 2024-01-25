@@ -1,0 +1,19 @@
+GET http://localhost:3000/lots
+
+###
+
+POST http://localhost:3000/lots
+Content-Type: application/json
+
+{
+  "username" : "keith101",
+  "numOfItems" : 1,
+  "items" : [
+    {
+      "itemName" : "Pot",
+      "description" : "It's a pot",
+      "condition" : "cracked",
+      "category" : "Ceramic"
+    }
+  ]
+}
